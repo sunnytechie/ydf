@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\AttendanceController::class, 'index'])->name('attendance.index');
+Route::post('/attendance/print', [App\Http\Controllers\AttendanceController::class, 'store'])->name('attendance.store');
+Route::get('/print/{id}', [App\Http\Controllers\AttendanceController::class, 'print'])->name('attendance.print');
