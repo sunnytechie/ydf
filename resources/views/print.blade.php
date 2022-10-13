@@ -7,8 +7,8 @@
         <meta property="og:url" content="{{ url()->current() }}" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="{{ config('app.name') }}" />
-        <meta property="og:description" content="I will be there" />
-        <meta property="og:image" content="{{ asset('assets/img/convention-flyer.jpg') }}" />
+        <meta property="og:description" content="I will be there - YDF convention flyer" />
+        <meta property="og:image" content="{{ asset('assets/img/ydf-logo.png') }}" />
         <meta property="og:image:width" content="200" />
         <meta property="og:image:height" content="200" />
         <meta property="og:image:type" content="image/png" />
