@@ -74,7 +74,7 @@
         <div class="col-md-12">
             <div class="box" id="htmlContent">
               <div class="avatar"><img id="imgAvatar" class="img-avatar" height="380" width="380" src="/storage/{{ $attendance->thumbnail }}" alt="Your picture"></div>
-              <div class="flyer"><img class="img-fluid" src="{{ asset('assets/img/print-avatar.png') }}" alt="flyers" style="z-index: 999"></div>
+              <div class="flyer"><img class="img-fluid" src="{{ asset('assets/img/print-avatar.jpg') }}" alt="flyers" style="z-index: 999"></div>
                 
             </div>
             <button id="download" class="btn btn-primary mb-3" type="button">Click to Download</button>
